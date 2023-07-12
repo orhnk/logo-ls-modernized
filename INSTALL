@@ -16,7 +16,7 @@ echo ""
 echo "Adding logo-ls to $PATH"
 echo "This operation requires sudo acces prompting now"
 sudo true
-mv logo-ls /usr/local/bin/
+sudo mv logo-ls /usr/local/bin/
 
 echo ""
 echo "Cleaning Repo"
