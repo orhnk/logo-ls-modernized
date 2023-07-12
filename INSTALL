@@ -1,0 +1,25 @@
+echo "---- Installing logo-ls for modern Nerd Fonts ----"
+echo ""
+echo "Cloning Repo"
+
+git clone https://github.com/utfeight/logo-ls.git
+
+echo ""
+echo "Building Project"
+cd logo-ls
+go mod tidy
+go build
+
+echo ""
+echo "Adding logo-ls to $PATH"
+echo "This operation requires sudo acces prompting now"
+sudo true
+mv logo-ls /usr/local/bin/
+
+echo ""
+echo "Cleaning Repo"
+cd ..
+rm -r logo-ls
+
+echo ""
+echo "Done!"

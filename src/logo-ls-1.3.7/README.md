@@ -24,10 +24,6 @@ modern ls command with beautiful Icons and Git Integrations . Written in Golang
 
 Command and Arguments supported are listed in [HELP.md](/HELP.md)
 
-## Added
-- Nerd Font 3.0 (By [manuth](https://github.com/manuth))
-- Install Script
-
 ## Table of contents
 
 - [Features](#features)
